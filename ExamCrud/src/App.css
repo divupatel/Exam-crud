@@ -1,0 +1,75 @@
+body{
+  text-align: center;
+  background-image: url('https://cdn.dribbble.com/users/2156796/screenshots/19992280/media/7d2ee3a4d15d1f335419059066067694.gif');
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar a{
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.formname{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.form{
+  margin: 20px;
+  border: 1px solid saddlebrown;
+  padding: 30px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px skyblue;
+}
+
+.form input{
+  outline: none;
+  border: none;
+  padding: 5px;
+  box-shadow: 0 0 2px 2px whitesmoke;
+}
+
+.form button,.deletebtn , .editbtn{
+  background-color: black;
+  color: whitesmoke;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  transition: all linear 1s
+}
+
+.form button{
+  background-color: white;
+  color: black;
+}
+
+.form button:hover{
+  background-color: black;
+  color: white;
+}
+
+.deletebtn:hover , .editbtn:hover{
+  background-color: white;
+  color: black;
+}

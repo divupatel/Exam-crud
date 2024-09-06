@@ -1,0 +1,16 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "name": "Divu",
+      "email": "divu@gmail.com",
+      "password": "124dfv"
+    },
+    {
+      "name": "sagar",
+      "email": "sagar@gmail.com",
+      "password": "njds",
+      "id": 2
+    }
+  ]
+}
